@@ -1,0 +1,349 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+a {
+    color: #e50914;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Section */
+header {
+    background-color: #343a40;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-left: 20px;
+}
+
+.nav-menu a {
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #b20710;
+}
+
+.order-now-btn {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.order-now-btn:hover {
+    background-color: #b20710;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+    background-color: #1f1f1f;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    padding: 15px 30px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #b20710;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+/* About Us Section */
+.about {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+
+.about-us {
+    position: relative;
+}
+
+.about-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+color: black; /* Text color black karne ke liye */
+}
+
+    filter: blur(10px); /* Blur effect apply karein */
+    z-index: -1; /* Content se peeche rakhein */
+}
+
+
+
+
+
+
+/* Menu Highlights Section */
+.menu {
+    padding: 60px 20px;
+    background-color: #343a40;
+    text-align: center;
+    color: #fff;
+}
+
+.menu h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 45%;
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 1em;
+}
+
+/* Locations Section */
+.locations {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.locations h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.location {
+    margin-bottom: 20px;
+}
+
+.location h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.location p {
+    font-size: 1.2em;
+}
+
+/* Reservations Section */
+.reservation {
+    padding: 60px 20px;
+    background-color: #343a40;
+    text-align: center;
+    color: #fff;
+}
+
+.reservation h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.reservation form {
+    display: inline-block;
+    max-width: 600px;
+    width: 100%;
+}
+
+.reservation form input, .reservation form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.reservation form button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reservation form button:hover {
+    background-color: #b20710;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section form, .footer-section a {
+    font-size: 1em;
+}
+
+.footer-section form {
+    display: flex;
+}
+
+.footer-section input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-section button {
+    background-color: #e50914;
+    color: #343a40;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.footer-section button:hover {
+    background-color: #b20710;
+}
+
+.footer-section a {
+    display: inline-block;
+    margin: 5px;
+}
+
+.footer-section a img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+
+
+
+.about-us {
+    color: black; /* Text color black karne ke liye */
+}
+
+
+
+
